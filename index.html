@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Overlay - Team 12</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<div id="preloader">
+  <div id="status"> <img src="img/preloader.gif" height="64" width="64" alt=""> </div>
+</div>
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+      <a class="navbar-brand page-scroll" href="#page-top"> <!--<i class="fa fa-paper-plane-o"></i> --> Overlay</a> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+        <li class="hidden"> <a href="#page-top"></a> </li>
+        <li> <a class="page-scroll" href="#about">About</a> </li>
+        <li> <a class="page-scroll" href="#services">Tech</a> </li>
+        <li> <a class="page-scroll" href="#works">Portfolio</a> </li>
+        <li> <a class="page-scroll" href="#team">Team</a> </li>
+        <li> <a class="page-scroll" href="#testimonials">Testimonials</a> </li>
+        <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container --> 
+</nav>
+
+<!-- Header -->
+<div id="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <h1> <span class="brand-heading">Overlay</span></h1>
+          <p class="intro-text">stacks on stacks on stacks</p>
+          <a href="#about" class="btn btn-default page-scroll">Learn More</a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>About us</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-4"><img src="img/about.jpg" class="img-responsive"></div>
+      <div class="col-md-4">
+        <div class="about-text">
+          <h4><div style="text-align: center">What is Overlay? </div></h4>
+          <div style="text-align:justify">
+
+          <p> Overlay is a game developed through Unity that makes users cover a background circle with other differently sized circles based on the Disk Covering Algorithm.
+            If the background is still showing that means the player has not placed the other smallers circles correctly and therefore the level is not complete yet. 
+            Each level consists of a timer and four times the optimal circles needed to cover the background circle. The difficulty of the game becomes increasingly harder after every ten stages. 
+            Place circles fast and strategically to cover the background to score well and be placed on the top ten rankings!
+            Select a song from options to jam out to or mute the volume and chill. </p>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="about-text">
+          <!--- <h4>What We Do</h4> -->
+         <div style="text-align:center">
+          <h4>Team 12</h4>
+           <p>Creators: Ryan Devaney &amp; Sanya Gupta </p>
+            <p>Instructors: Sergiu Dascalu &amp; Devrin Lee
+                <br>
+              Advisors: Vinh Le &amp; Connor Scully-Allison</p>
+          <p>CS 426 Senior Project in Computer Science, Spring 2018, at UNR, CSE Department</p>
+          </div>
+          
+          <p> <img src = "./img/unr.jpg" width="313" height="105" > </p>
+          <!--<ul>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Consectetur adipiscing commodo</li>
+            <li>Duis sed dapibus leo sed dapibus</li>
+            <li>Sed commodo nibh ante bibendum</li>-->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Services Section -->
+<div id="services" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Technologies Used &amp; Created</h2>
+      <hr>
+    </div>
+    <div class="space"></div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="service"> <!--<i class="fa fa-desktop"></i>-->
+          <img src = "./img/unity.png" width="140" height="60" >
+          <h3>Unity Game Engine</h3>
+          <p>A game development platform and engine that is being used to build Overlay.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"> <!--i class="fa fa-cogs"></i>-->
+          <img src = "./img/flask.png" width="140" height="60" >
+          <h3>Flask</h3>
+          <p>A Python microframework used in the creation of a RESTful web service..</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"> <!-- <i class="fa fa-tablet"></i>-->
+          <img src = "./img/wservice.png" width="140" height="60" >
+          <h3>RESTful Web Service</h3>
+          <p>A web service that communicates with the Unity game through four HTTP web requests: GET, POST, PUT, and, DELETE to update game rankings..</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"> <!--<i class="fa fa-html5"></i>-->
+          <img src = "./img/json.jpeg" width="140" height="60" >
+          <h3>JSON</h3>
+          <p>The format in which data is stored and passed between client and server.</p>
+        </div>
+      </div>
+    </div>
+   <!--- <div class="space"></div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><i class="fa fa-wordpress"></i>
+          <h3>WordPress</h3>
+          <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><i class="fa fa-bullhorn"></i>
+          <h3>Marketing</h3>
+          <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><i class="fa fa-rocket"></i>
+          <h3>Branding</h3>
+          <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service"><i class="fa fa-leaf"></i>
+          <h3>Print Design</h3>
+          <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
+        </div>
+      </div>
+    -->
+    </div>
+  </div>
+</div>
+<!-- Portfolio Section -->
+<div id="works">
+  <div class="container"> <!-- Container -->
+    <div class="section-title text-center center">
+      <h2>Our Portfolio</h2>
+      <hr>
+      <div class="clearfix"></div>
+      <p>This is where vital information regarding Overlay is found, including books, articles, and Overlay documentation.</p>
+    </div>
+    
+    
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            
+                <h4><a href="https://www.amazon.com/Unity-Action-Multiplatform-Game-Development/dp/161729232X">Unity in Action</h4></a>
+                <p>Joe Hawkings</p>
+                <p>Project Domain Book</p>
+                <img src="./img/book.jpeg" width="160" height="100">
+                <br>
+                <br>
+                <div style="text-align:justify">
+
+                <p>This book teaches developers how to go about creating games in Unity. It is primarily meant for people who have had prior coding knowledge in languages such as C++/C as games created in Unity use C#. This is the perfect book for the team as they are all experienced programmers and have also prior game design and creation knowledge with other another game engine called Gamemaker and with one member having some experience in Unity itself. 
+                  </p>
+                  </div>              
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+            <div class="portfolio-item">
+              
+                  <h4> <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.98.4790&rep=rep1&type=pdf">User Interfaces for All: New Perspective into Human-Computer Interaction </a>
+                    </h4>
+                  <p>Reference Article</p>
+                 
+                  <div style="text-align:justify">
+  
+                 <p>
+                    This scholarly article outlines how one should go about designing a product that is heavily focused on human-computer interaction so the final product is enjoyable and efficient for the user to use. This is a helpful paper for Shape Fitter, as it relies on the experience of a strong human-computer interaction to create a fun yet challenging atmosphere. This article helps the developers and UX designers create a wonderful and engaging product so it will not fail in the market and continue to flourish.
+
+                 </p>
+                    </div>              
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+              <div class="portfolio-item">
+                
+                    <h4> <a href="https://unity3d.com/learn/tutorials/topics/2d-game-creation/2d-game-development-walkthrough">Unity 2-D Walkthrough</a></h4>
+                    <p>Project Related Website</p>
+                   
+                    <div style="text-align:justify">
+    
+                   <p>
+                      The website above is a great resource for members new to Unity. It has a link to a video which gives a nice overview of some of the tools and functionalities that Unity provides for its developers. Likewise, there are other links to other specific features such as sprite creation and rendering. Members should consult this website if something is challenging in terms of implementing as they can gain an idea through some of the tutorials provided.  
+                   </p>
+                      </div>              
+              </div>
+            </div>  
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+                <div class="portfolio-item">
+                  
+                      <h4> <a href="https://www2.stetson.edu/~efriedma/circovcir/">Disk Covering Algorithm Info</a></h4>
+                      <p>Project Related Website</p>
+                     
+                      <div style="text-align:justify">
+      
+                     <p>
+                        This website goes over the ratios needed to calculate the size of the smaller circle using the Disk Covering Algorithm which is vital to the game play.   
+                     </p>
+                        </div>              
+                </div>
+              </div>  
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+                <div class="portfolio-item">
+                  
+                      <h4> <a href="https://www.youtube.com/watch?v=Ped27cKAwus&t=5s">Overlay Ad</a></h4>
+                      <p>Project Video </p>        
+                </div>
+              </div>  
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+                <div class="portfolio-item">
+                  
+                      <h4> <a href="https://www.youtube.com/watch?v=QnSDCyIzdUc">Overlay Game Play</a></h4>
+                      <p>Demo of Level 1</p>        
+                </div>
+              </div>  
+              <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+                  <div class="portfolio-item">
+                      <h4><a href="./img/PA1.pdf" target="_blank">Overlay Concept &amp; Project Management</a></h4>
+                        <p>Project Documentation</p>        
+                  </div>
+                </div>  
+              <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+                  <div class="portfolio-item">
+                      <h4><a href="./img/PA2.pdf" target="_blank">Overlay Specification &amp; Design</a></h4>
+                        <p>Project Documentation</p>        
+                  </div>
+                </div>  
+              <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+                  <div class="portfolio-item">
+                      <h4><a href="./img/poster.pdf" target="_blank">Overlay Details</a></h4>
+
+                        <p>Poster</p>        
+                  </div>
+                </div>    
+
+        
+       
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Team Section -->
+<div id="team" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Meet the team</h2>
+      <hr>
+      <p>Team 12 consists of two senior undergraduate Computer Science students at the University of Nevada, Reno advised by two graduate Computer Science students. </p>
+    </div>
+    <div id="row">
+      <div class="col-xs-6 col-md-3 col-sm-6">
+        <div class="thumbnail"> <img src="img/team/01.jpg" alt="..." class="img-thumbnail team-img">
+          <div class="caption">
+            <h3>Sanya Gupta</h3>
+            <p>UI &amp; Backend Specialist</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-3 col-sm-6">
+        <div class="thumbnail"> <img src="img/team/02.jpg" alt="..." class="img-thumbnail team-img">
+          <div class="caption">
+            <h3>Ryan Devaney</h3>
+            <p>Game Designer &amp; Architect</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-3 col-sm-6">
+        <div class="thumbnail"> <img src="img/team/03.jpg" alt="..." class="img-thumbnail team-img">
+          <div class="caption">
+            <h3>Vinh Le</h3>
+            <p>Graduate Advisor</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-3 col-sm-6">
+        <div class="thumbnail"> <img src="img/team/04.jpg" alt="..." class="img-thumbnail team-img">
+          <div class="caption">
+            <h3>Connor Scully-Allison</h3>
+            <p>Graduate Advisor</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Testimonials Section -->
+<div id="testimonials" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>What our clients say</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="row testimonials">
+          <div class="col-sm-4">
+            <blockquote><i class="fa fa-quote-left"></i>
+              <p>My wife doesn't cheat on me anymore!</p>
+              <div class="clients-name">
+                <p><strong>Jervyn Suigitan</strong><br>
+                  <em>Space Cadet for the Space Flight Simulator</em></p>
+              </div>
+            </blockquote>
+          </div>
+          <div class="col-sm-4">
+            <blockquote><i class="fa fa-quote-left"></i>
+              <p>I finally have friends.</p>
+              <div class="clients-name">
+                <p><strong>Jacob Lee</strong><br>
+                  <em>Airflight Engineer for the Space Flight Simulator</em></p>
+              </div>
+            </blockquote>
+          </div>
+          <div class="col-sm-4">
+            <blockquote><i class="fa fa-quote-left"></i>
+              <p>Shapes are cool</p>
+              <div class="clients-name">
+                <p><strong>Adriano Masteo</strong><br>
+                  <em>Student.</em></p>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Contact us</h2>
+      <hr>
+      <p>Have a question? Shoot us an email!</p>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <h3>Leave us a message</h3>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-default">Send Message</button>
+      </form>
+      <div class="social">
+        <h3>Follow us</h3>
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          <li><a href="#"><i class="fa fa-github"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container">
+    <p>Copyright &copy; Overlay. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire &amp; customized by Sanya Gupta</a></p>
+  </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jquery.parallax.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+
+<!-- Javascripts
+    ================================================== --> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
